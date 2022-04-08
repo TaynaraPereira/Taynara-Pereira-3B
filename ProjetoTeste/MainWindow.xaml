@@ -1,0 +1,33 @@
+﻿<Window x:Class="ProjetoTeste.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoTeste"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Imagens/fundo.jpg"/>
+        </Grid.Background>
+        <Label Content="Usuário" HorizontalAlignment="Left" Margin="281,56,0,0" VerticalAlignment="Top" Foreground="#FFECDEDE" FontFamily="Arial" FontWeight="Bold"/>
+        <Button x:Name="btAcessar" Content="Acessar" HorizontalAlignment="Left" Margin="316,210,0,0" VerticalAlignment="Top" BorderBrush="#FFD4D4D4" Background="Black" Foreground="#FFFDFDFD" Height="33" Width="90" Click="btAcessar_Click"/>
+        <Label Content="Senha" HorizontalAlignment="Left" Margin="286,139,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial"/>
+        <TextBox x:Name="txtUsuario" HorizontalAlignment="Left" Margin="298,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="25" FontFamily="Arial"/>
+        <PasswordBox x:Name="txtSenha" HorizontalAlignment="Left" Margin="298,168,0,0" VerticalAlignment="Top" Width="125" FontFamily="Arial" Height="26"/>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="219,277,0,0" TextWrapping="Wrap" Text="Esqueceu a senha?" VerticalAlignment="Top" Width="126" Foreground="White" FontFamily="Arial" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Height="18" Margin="225,297,0,0" TextWrapping="Wrap" Text="Clique no botão abixo:" VerticalAlignment="Top" Width="121" Foreground="White" FontFamily="Arial" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="4.929"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.819"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Button x:Name="btRedefinir" Content="Rdefinir Senha" HorizontalAlignment="Left" Margin="400,303,0,0" VerticalAlignment="Top" BorderBrush="#FFD4D4D4" Background="Black" Foreground="#FFFDFDFD" Height="36" Width="98"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="124,29,0,0" VerticalAlignment="Top" Foreground="#FFECDEDE" FontFamily="Arial" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,40 @@
+﻿<Window x:Class="ProjetoTeste.Calculadora"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjetoTeste"
+        mc:Ignorable="d"
+        Title="Calculadora" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Imagens/fundo.jpg"/>
+        </Grid.Background>
+        <Button x:Name="btSubtracao" Content="" HorizontalAlignment="Left" Margin="456,140,0,0" VerticalAlignment="Top" Height="51" Width="65" Click="btSubtracao_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Imagens/vcsremoved_93492.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btAdicao" Content="" HorizontalAlignment="Left" Margin="194,134,0,0" VerticalAlignment="Top" Height="57" Width="66" Click="btAdicao_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Imagens/1491313933-plus_83004.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btMultiplicar" Content="" HorizontalAlignment="Left" Margin="280,134,0,0" VerticalAlignment="Top" Height="53" Width="68" Click="btMultiplicar_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Imagens/Error_36910.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btDividir" Content="" HorizontalAlignment="Center" Margin="0,138,0,0" VerticalAlignment="Top" Height="53" Width="66" Click="btDividir_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Imagens/1486505258-divide-division-dote-square_81435.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Números que deseja realizar o culculo:" HorizontalAlignment="Left" Margin="162,66,0,0" VerticalAlignment="Top" Foreground="#FFECDEDE" FontFamily="Arial" FontWeight="Bold"/>
+        <Label Content="Calculadora" HorizontalAlignment="Left" Margin="62,38,0,0" VerticalAlignment="Top" Foreground="#FFECDEDE" FontFamily="Arial" FontWeight="Bold"/>
+        <TextBox x:Name="txtNum2" HorizontalAlignment="Left" Margin="382,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="124" FontFamily="Arial" Height="26"/>
+        <TextBox x:Name="txtResultado" HorizontalAlignment="Left" Margin="278,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" Height="23"/>
+        <TextBox x:Name="txtNum1" HorizontalAlignment="Left" Margin="194,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="128" Height="27"/>
+
+    </Grid>
+</Window>
