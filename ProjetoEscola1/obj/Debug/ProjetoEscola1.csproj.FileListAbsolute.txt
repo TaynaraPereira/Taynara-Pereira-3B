@@ -1,0 +1,16 @@
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\bin\Debug\ProjetoEscola1.exe.config
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\bin\Debug\ProjetoEscola1.exe
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\bin\Debug\ProjetoEscola1.pdb
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\ProjetoEscola1.csproj.AssemblyReference.cache
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\ProjetoEscola1.csproj.SuggestedBindingRedirects.cache
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\MainWindow.g.cs
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\App.g.cs
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\ProjetoEscola1_MarkupCompile.cache
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\ProjetoEscola1_MarkupCompile.lref
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\MainWindow.baml
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\ProjetoEscola1.g.resources
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\ProjetoEscola1.Properties.Resources.resources
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\ProjetoEscola1.csproj.GenerateResource.cache
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\ProjetoEscola1.csproj.CoreCompileInputs.cache
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\ProjetoEscola1.exe
+C:\Users\2020102011019-7\Downloads\Prof joão\ProjetoEscola1\obj\Debug\ProjetoEscola1.pdb
